@@ -48,7 +48,7 @@ except ImportError:
 try:
     from scapy.all import Dot15d4
 except ImportError:
-    warn += "Scapy-com 802.15.4 (git clone https://bitbucket.org/secdev/scapy-com)"
+    warn += "Scapy-con 802.15.4 (git clone https://bitbucket.org/secdev/scapy-con)"
 
 
 if err != "":
